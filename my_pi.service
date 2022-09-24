@@ -1,0 +1,9 @@
+[Unit]
+Description=My Pi Service
+
+[Service]
+Type=idle
+ExecStart=/srv/pi-sensehat-playground/my_pi.py
+
+[Install]
+WantedBy=multi-user.target
